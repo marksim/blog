@@ -7,7 +7,7 @@ categories: blog
 
 Now that memcached 1.4.4 is out, I thought it would be nice to update it:
 
-<code lang="bash">
+``` bash
 curl -O http://www.monkey.org/~provos/libevent-1.4.13-stable.tar.gz
 tar xzvf libevent-1.4.13-stable.tar.gz
 cd libevent-1.4.13-stable
@@ -23,9 +23,9 @@ cd memcached-1.4.4
 make
 make test
 sudo make install
-</code>
+```
 
-<code lang="ruby">
+``` ruby
 #!/usr/bin/env ruby
 require 'pathname'
  
@@ -46,4 +46,4 @@ else
   # unfortuantely, QUIT on Mac OS X causes memcached to crash
   pidfile.delete
 end
-</code>
+```

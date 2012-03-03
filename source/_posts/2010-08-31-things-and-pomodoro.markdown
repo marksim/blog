@@ -19,7 +19,7 @@ If you haven't already, go get familiar with GTD and Pomodoro.  You can read the
 
 Once you're familiar, go download <a href="http://www.focusboosterapp.com/">Focus Booster</a> (or one of many other pomodoro timer apps out there).  Then fire up "Things" and set up the following tags:
 
-<a href="images/Screen-shot-2010-08-31-at-9.05.43-AM.png"><img src="images/Screen-shot-2010-08-31-at-9.05.43-AM.png" alt="" title="Pomodoro Tags" width="377" height="396" class="alignnone size-full wp-image-83" /></a>
+<a href="/images/Screen-shot-2010-08-31-at-9.05.43-AM.png"><img src="/images/Screen-shot-2010-08-31-at-9.05.43-AM.png" alt="" title="Pomodoro Tags" width="377" height="396" class="alignnone size-full wp-image-83" /></a>
 
 Now, set up a recurring task daily to "Prep for day" with a "1p" tag - 1 pomodoro.  You can use this first pomodoro to parse through everything in your inboxes and Today list in Things.  Estimate using the number keys... and if you end up estimating 8 or more, break it up.  Use the c or 'combine' tag for tasks that are smaller than one pomodoro and could be combined together.
 

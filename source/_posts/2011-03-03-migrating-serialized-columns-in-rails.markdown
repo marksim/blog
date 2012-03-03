@@ -7,7 +7,7 @@ I recently switched a serialized column in Rails from one type (Hash) to another
 
 The answer is to copy the column, nullify it, and the load the raw YAML manually:
 
-<code lang="ruby">
+``` ruby
     add_column :my_table, :serialized_column_raw, :text
     MyTable.update_all("serialized_column_raw = serialized_column")
     MyTable.update_all("serialized_column = NULL")
@@ -16,4 +16,4 @@ The answer is to copy the column, nullify it, and the load the raw YAML manually
       mt.save!
     end
     remove_column :my_table, :serialized_column_raw
-</code>
+```

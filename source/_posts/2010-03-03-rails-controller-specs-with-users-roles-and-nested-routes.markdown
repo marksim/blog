@@ -8,28 +8,28 @@ I've long put off testing my controllers because of user authentication and nest
 But today, a fully working test!  
 
 As background, Advertisers have many trackers and the routes look like this:
-<code lang="ruby">
+``` ruby
 # config/routes.rb
 ActionController::Routing::Routes.draw do |map|
   map.resources :advertisers do |advertisers|
     advertisers.resources :trackers
   end
 end
-</code>
+```
 
 To set everything up in the specs, I included all the files in the spec/support directory and used <a href="http://mocha.rubyforge.org/">Mocha</a> as my mock framework
-<code lang="ruby">
+``` ruby
 # spec/spec_helper.rb
 Dir[File.expand_path(File.join(File.dirname(__FILE__),'support','**','*.rb'))].each {|f| require f}
 
 Spec::Runner.configure do |config|
   config.mock_with :mocha
 end
-</code>
+```
 
 Then I set up my factories (<a href="http://railscasts.com/episodes/158-factories-not-fixtures">rather than fixtures</a>) using <a href="http://github.com/thoughtbot/factory_girl">Factory Girl</a>
 
-<code lang="ruby">
+``` ruby
 # spec/factories.rb
 Factory.define :user do |user|
   user.sequence(:login) { |n| "username#{n}" }
@@ -47,10 +47,10 @@ end
 Factory.define :tracker do |tracker|
   tracker.name 'Tracker 1'
 end
-</code>
+```
 
 Now we get down to brass tacks.  In order to make my tests DRY (appropriately) and allow for all my controllers to test if someone is logged in and has access, I set up this shared context
-<code lang="ruby">
+``` ruby
 # spec/support/user_authentication.rb
 describe "an admin is logged in", :shared => true do
   before(:each) do
@@ -58,10 +58,10 @@ describe "an admin is logged in", :shared => true do
     controller.stubs( :current_user => Factory.build(:user, :login => 'admin', :roles_list => ["super"]))
   end
 end
-</code>
+```
 
 From there, all we need to do is put it all together, setting up trackers parent @advertiser and the @tracker we'll be using and stubbing the ActiveRecord find so that it always returns @advertiser
-<code lang="ruby">
+``` ruby
 # spec/controllers/trackers_controller.rb
 describe TrackersController do
   it_should_behave_like "an admin is logged in"
@@ -72,10 +72,10 @@ describe TrackersController do
     @tracker = @advertiser.trackers.create(Factory.attributes_for(:tracker))
     Advertiser.stubs(:find => @advertiser)
   end
-</code>
+```
   
 Now we simply specify the part of the path that is needed to find the nested route by using :advertiser_id => @advertiser
-<code lang="ruby">
+``` ruby
 # spec/controllers/trackers_controller.rb
   it "index action should render index template" do
     get :index, :advertiser_id => @advertiser
@@ -127,6 +127,6 @@ Now we simply specify the part of the path that is needed to find the nested rou
     Tracker.exists?(@tracker.id).should be_false
   end
 end
-</code>
+```
 
 Works!   And works great!   A minimal and excellent way to test your controllers, especially for access.  You can easily create additional shared contexts with different user permissions and extend out the tests to make sure users that don't have access can properly access them.

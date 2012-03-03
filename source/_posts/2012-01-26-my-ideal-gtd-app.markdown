@@ -11,6 +11,7 @@ So I've come up with my list of needs, wants, and wishes for a GTD app. I don't 
 
 So here's my list. Take it for what it is. And if you know of something that implements all the musts, most of the wants and some of the needs... let me know.
 
+<p>
 <strong>Needs</strong>
 <ul>
 	<li>Native Mac App (as a first class part of the solution)</li>
@@ -51,6 +52,8 @@ So here's my list. Take it for what it is. And if you know of something that imp
 </ul>
 	<li>Calendar View, integrated with iCal calendars</li>
 </ul>
+</p>
+
 Now, I know my list looks long to those in the GTD world, but if you look at the features, they seem simple to implement.  Very simple.  Omnifocus is the closest to this, but has no Pomodoro support and bad "Today" support.  Producteev is actually really close, but lacks enough polish.  Things is still the best task manager I've found for managing tasks AND getting out of the way.  Has someone made this task manager I seek?  If not, I assume I'm naive for thinking it is simple to do.  I'm considering whipping together a webapp prototype that does what I want.
 
 What's your ideal GTD app?  What features would you say are imperative?
