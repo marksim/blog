@@ -51,4 +51,4 @@ Then you can look at that commit and address it specifically.  This is a huge ar
 
 When you're done, just <code>git bisect reset</code> and you'll be back on your <code>HEAD</code>.  
 
-You may be asking if you could do this manually -- and then answer is an absolute YES, but <code>bisect</code> provides a very simple and easy way to step through the process without a lot of extra though or effort.
+You may be asking if you could do this manually -- and then answer is an absolute YES, but <code>bisect</code> provides a very simple and easy way to step through the process without a lot of extra thought or effort.
