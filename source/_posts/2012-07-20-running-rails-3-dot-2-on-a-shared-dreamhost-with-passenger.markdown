@@ -6,11 +6,15 @@ comments: true
 categories: hosting, rails, blog
 ---
 
+## Everybody Loves Dreamhost, but...
+
 Dreamhost is a great little hosting company, but it really lags when it comes to keeping the latest software up to date. It's version of Ruby is 1.8.7 and the latest stable version of Rails they have running is 3.0.3.  That release is technically in "security fix" mode.  Ugh.
 
 So I'd like to run Rails 3.2, but don't want to pay for a VPS since this system is going to be small and simple.  How can I do it?
 
 As it turns out, it's relatively easy.  I only ran into one headache and was able to install anything I wanted without any problems.  How did I do this?  The secret, my friends, is <code>bundle pack</code>
+
+## Creating a new Vendored App
 
 Let's create a new Rails 3.2 app and set our local RVM to use 1.8.7 since that's what passenger uses (and can't use another version)
 
@@ -25,6 +29,8 @@ $ bundle install
 $ bundle package
 $ capify .
 ```
+
+## Deploying via Copy
 
 Now you'll need to edit your deploy file.  It's easy to deploy via copy:
 
@@ -66,6 +72,8 @@ $ cap deploy:setup
 $ cap deploy:cold
 ```
 
+## The Big Gotcha: The Asset Pipeline
+
 Now we need to enable the asset pipeline.  First uncomment the line related to it in <code>Capfile</code>
 
 ``` ruby Capfile
@@ -75,6 +83,8 @@ load 'deploy/assets'
 Dir['vendor/gems/*/recipes/*.rb','vendor/plugins/*/recipes/*.rb'].each { |plugin| load(plugin) }
 load 'config/deploy' # remove this line to skip loading any of the default tasks
 ```
+
+### ... and multiple platform hell.
 
 Then we need to handle the singular headache that is related to the asset pipeline if you're working on a different platform than Debian linux (say, OS X)
 
