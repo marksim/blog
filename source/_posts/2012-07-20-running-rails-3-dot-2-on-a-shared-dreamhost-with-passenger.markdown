@@ -6,6 +6,8 @@ comments: true
 categories: hosting, rails, blog
 ---
 
+*Update:* While it's good to understand what you're doing, [this template file](https://gist.github.com/4658117) will get you so that after you get your app running, {code}cap deploy:setup{/code} and {code}cap deploy:cold{/code} works, assuming you have the host set up properly and have your app's main directory cleared of all files.  
+
 ## Everybody Loves Dreamhost, but...
 
 Dreamhost is a great little hosting company, but it really lags when it comes to keeping the latest software up to date. It's version of Ruby is 1.8.7 and the latest stable version of Rails they have running is 3.0.3.  That release is technically in "security fix" mode.  Ugh.
@@ -34,9 +36,15 @@ $ capify .
 
 Now you'll need to edit your deploy file.  It's easy to deploy via copy:
 
-``` ruby Gemfile
+``` ruby config/deploy.rb 
 require 'bundler/capistrano'
 
+# to get past the 'bundle not installed errors'
+set :default_environment, {                                                     
+  "PATH" => "~/.gems/bin:/usr/lib/ruby/gems/1.8/bin/:/usr/local/bin:/usr/bin:/bin:"
+}                                                                               
+set :shell, "/bin/bash"   
+ 
 set :application, "myproject"
 
 set :scm, :none
@@ -80,7 +88,6 @@ Now we need to enable the asset pipeline.  First uncomment the line related to i
 load 'deploy'
 # Uncomment if you are using Rails' asset pipeline
 load 'deploy/assets'
-Dir['vendor/gems/*/recipes/*.rb','vendor/plugins/*/recipes/*.rb'].each { |plugin| load(plugin) }
 load 'config/deploy' # remove this line to skip loading any of the default tasks
 ```
 
