@@ -6,7 +6,7 @@ comments: true
 categories: hosting, rails, blog
 ---
 
-*Update:* While it's good to understand what you're doing, [this template file](https://gist.github.com/4658117) will get you so that after you get your app running, {code}cap deploy:setup{/code} and {code}cap deploy:cold{/code} works, assuming you have the host set up properly and have your app's main directory cleared of all files.  
+*Update:* While it's good to understand what you're doing, [this template file](https://gist.github.com/4658117) will get you so that after you get your app running, <code>cap deploy:setup</code> and <code>cap deploy:cold</code> works, assuming you have the host set up properly and have your app's main directory cleared of all files.  
 
 ## Everybody Loves Dreamhost, but...
 
