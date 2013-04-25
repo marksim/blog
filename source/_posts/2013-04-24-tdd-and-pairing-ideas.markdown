@@ -24,7 +24,7 @@ When pairing, especially remotely with someone you don't work professionally wit
 
 # Tools
 
-* Vim + tmux - [how to tmux](http://pivotallabs.com/how-we-use-tmux-for-remote-pair-programming/) &middot; [tmux basics screencast](http://www.youtube.com/watch?v=wKEGA8oEWXw) &middot; [Syme](https://syme.herokuapp.com/)
+* Vim + tmux - [how to tmux](http://pivotallabs.com/how-we-use-tmux-for-remote-pair-programming/) &middot; [tmux basics screencast](http://www.youtube.com/watch?v=wKEGA8oEWXw) &middot; [Syme](https://syme.herokuapp.com/) &middot; [easy ssh/public key auth](https://github.com/chrishunt/github-auth)
 * Screen Sharing - [ScreenHero](http://screenhero.com) &middot; [Google+](http://plus.google.com) (read only)
 * Audio - [Skype](http://skype.com) &middot; [Google+](http://plus.google.com)
 * Find Pairs - [RubyPairs](http://rubypair.com/) &middot; [IRC #pairwithme](https://kiwiirc.com/client/irc.freenode.net/pairwithme) &middot; [Twitter #pairwithme](http://pair-with-me.herokuapp.com/)
