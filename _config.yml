@@ -93,7 +93,8 @@ disqus_short_name: autoficiency
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-2769308-3 
+google_analytics_domain: quarternotecoda.com
 
 # Facebook Like
 facebook_like: false
