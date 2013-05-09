@@ -6,11 +6,11 @@ comments: true
 categories: blog, meta
 ---
 
-As coders, we're often given tasks to do.  These tasks can sometimes overwhelm even the best of us.  How many times have you stared at a problem and when you actually sat down to attack it, you spent a quarter of the time you expected to on it--excecpt for the 3 hours you spent dreading it.
+As coders, we're often given tasks to do.  These tasks can sometimes overwhelm even the best of us.  How many times have you stared at a problem and when you finally sat down to attack it, you spent a quarter of the time you expected to on it.  If only you hadn't spent 3 hours playing Angry Birds.
 
 There are lots of things you can do to "hack" your productivity, but most of them are focused on helping you keep track of tasks instead of motivating you to get going.
 
-Here's a list of things I've done to get past the "block":
+Here's a list of things I've done to get past the "block".  Most are not mutually exclusive and can be combined as needed:
 
 ### 1. Time Chunks (specifically [The Pomodoro Technique](http://pomodorotechnique.com))
 
