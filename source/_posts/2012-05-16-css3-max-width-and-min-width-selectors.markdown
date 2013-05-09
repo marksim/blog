@@ -3,7 +3,7 @@ layout: post
 title: "CSS3 max-width and min-width selectors"
 date: 2012-05-16 08:20
 comments: true
-categories: blog, css
+categories: blog css html code
 ---
 
 I learned recently about min-width and max-width css selectors that allow you to specify certain properties that are applied under a maximum width and above a minimum width.  This can enable a flexible layout that works on many different screens without multiple distinct layouts (instead, just CSS).  This also makes it relatively easy to spot-test by simply resizing your browser to get an idea of how it will look on different size devices.

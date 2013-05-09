@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Optional Heirarchal Checkbox Selection with Nested Attributes in Rails
-categories: blog
+categories: blog rails ruby code
 ---
 I had a process where I wanted users to fill out a survey which had hierarchal categories AND be able to specify some additional data for specific capabilities that the user had.
 

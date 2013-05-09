@@ -3,7 +3,7 @@ layout: post
 title: "ToDo Lists and Bug Trackers"
 date: 2013-05-01 21:30
 comments: true
-categories: agile, gtd, team
+categories: blog agile gtd op-ed
 ---
 
 I love GTD.  I love making lists and having things to do.  I love having a system.  That also makes me love bug trackers when I'm on a team.  I love having everything listed in one place.  I love letting it be the communication point for a <em>team</em> to get things done.  Bug Trackers and To Do lists are great.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Ruby Scoping Gotcha?
-categories: blog
+categories: blog ruby code
 ---
 Let's take this basic class:
 ``` ruby

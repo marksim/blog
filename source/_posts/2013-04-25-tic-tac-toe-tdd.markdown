@@ -3,7 +3,7 @@ layout: post
 title: "Tic Tac Toe TDD"
 date: 2013-04-25 10:26
 comments: true
-categories: tdd
+categories: blog ruby tdd code
 ---
 
 I spent a little (longer than I thought... maybe 2 hours?) implementing Tic-Tac-Toe in the TDD As If You Mean It style.  Ended up with a VERY different implementation than I ever would have done if I just "started coding" -- everything was only in one class, including the AI to "play" against itself.

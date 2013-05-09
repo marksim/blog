@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Things and Pomodoro
-categories: blog
+categories: blog gtd
 ---
 For the last two years, I've been a loose GTD-er, using <a href="http://culturedcode.com">Cultured Code's</a> "<a href="http://culturedcode.com/things">Things</a>" to dump my brain and keep track of tasks to do.  I never got into the "project" side of GTD--planning out every project and asking why...  I'm sure it has value, but that was never the problem I was trying to solve with GTD.
 

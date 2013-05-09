@@ -3,7 +3,7 @@ layout: post
 title: "Easy way to limit the length of a list"
 date: 2012-06-15 13:33
 comments: true
-categories: jquery, blog, dom
+categories: jquery blog code 
 ---
 
 I have lots of lists on my new site that we want to show 'only the first 5' items on, but allow people to expand to see them all if they want.  It's common enough that I'd like to have an easy way to do it.  Bonus points if it's non-obtrusive.

@@ -3,7 +3,7 @@ layout: post
 title: "All of JSON"
 date: 2012-05-11 08:43
 comments: true
-categories: json, reference
+categories: blog json reference
 ---
 
 ``` json All of JSON by Mike Dewar

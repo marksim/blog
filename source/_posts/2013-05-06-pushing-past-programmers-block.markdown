@@ -3,7 +3,7 @@ layout: post
 title: "Pushing Past Programmer's Block"
 date: 2013-05-06 22:10
 comments: true
-categories: blog, meta
+categories: blog meta gtd op-ed
 ---
 
 As coders, we're often given tasks to do.  These tasks can sometimes overwhelm even the best of us.  How many times have you stared at a problem and when you finally sat down to attack it, you spent a quarter of the time you expected to on it.  If only you hadn't spent 3 hours playing Angry Birds.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ! 'Code Kata #1 - Supermarket Pricing'
-categories: blog
+categories: blog ruby code
 ---
 Taken from <a href="http://codekata.pragprog.com/2007/01/code_kata_one_s.html">Code Kata's by Dave Thomas</a>
 

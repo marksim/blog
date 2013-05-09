@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scary Complicated or Richly Awesome?
-categories: blog
+categories: blog op-ed
 ---
 When you look at a new piece of data, most of our initial reaction is in relation to the complexity of that data. Usually this scares me, but after you get to know the data, the more the merrier! What was scary becomes rich and awesome.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Importance Of Speed in Automation
-categories: blog
+categories: blog op-ed
 ---
 We are impatient people.  This is something that we must work to fix in order to grow as individuals, but it is something that serves the automator well--or can be our downfall.
 

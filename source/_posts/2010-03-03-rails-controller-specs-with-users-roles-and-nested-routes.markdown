@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rails Controller Specs with users, roles and nested routes
-categories: blog
+categories: blog rails code rspec tdd
 ---
 I've long put off testing my controllers because of user authentication and nested controllers, dealing with stubs, etc.
 

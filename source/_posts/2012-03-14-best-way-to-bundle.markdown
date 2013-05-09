@@ -3,7 +3,7 @@ layout: post
 title: "Best Way to Bundle"
 date: 2012-03-14 15:31
 comments: true
-categories: ruby, bundler, blog
+categories: ruby bundler blog code
 ---
 
 Thanks to the <a href="http://rubyrogues.com/045-rr-bundler-with-andre-arko/">RubyRogues Episode on Bundler</a>, I learned the best way to use bundler.

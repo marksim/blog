@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Stay At Inbox Zero
-categories: blog
+categories: blog gtd op-ed
 ---
 I saw a link recently on how to get to the ever elusive "Inbox Zero" and it seemed kinda lame--label everything "oldinbox" and archive everything in Gmail.  Maybe that's the only way to do it when you have 10K+ e-mails in your inbox, but it seems like the best way is to never get there to begin with.
 

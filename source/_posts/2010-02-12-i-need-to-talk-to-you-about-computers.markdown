@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ! '"I need to talk to you about computers."'
-categories: blog
+categories: blog link
 ---
 Nothing is simply black or white.
 

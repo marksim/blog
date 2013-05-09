@@ -3,7 +3,7 @@ layout: post
 title: "Distributed Teams in the Same Room"
 date: 2012-04-24 16:34
 comments: true
-categories: blog, meta
+categories: blog meta op-ed
 ---
 
 When you're in the same room, often your communication is done via waving at each other, overhearing a conversation, happening by a desk, etc.  It's accidental communication in many cases, and it's good.

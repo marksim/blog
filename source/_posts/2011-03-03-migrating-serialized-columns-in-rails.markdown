@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migrating Serialized Columns in Rails
-categories: blog
+categories: blog rails code
 ---
 I recently switched a serialized column in Rails from one type (Hash) to another (OpenStruct) and ran into a little problem when I tried to migrate, namely, that loading the model threw a SerializationTypeMismatch error.  Hmm... how am I going to get at the base YAML and translate all of these without being brittle?
 

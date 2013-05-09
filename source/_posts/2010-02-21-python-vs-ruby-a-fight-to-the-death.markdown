@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python vs. Ruby - A Fight To The Death
-categories: blog
+categories: blog ruby python link
 ---
 When you're discussing efficiency, a lot of what comes up is the details.  There is something to be said for the "beauty" of limitation and the "efficiency" of beautiful things--especially the efficiency of our brains processing it.
 <blockquote>A talk about the Zen of Python, monkey patching (several times), the Ruby community&amp;apos;s reckless hastiness, the syntax of RSpec and cucumber, beauty and ugliness in languages and testing tools, the complexity of the languages&amp;apos; grammars, syntactic vs. semantic complexity, the relative taste of grasshoppers and tree bark, etc., etc.</blockquote>

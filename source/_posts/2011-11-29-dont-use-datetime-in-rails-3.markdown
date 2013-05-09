@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Don't Use DateTime in Rails 3
-categories: blog
+categories: blog ruby rails code
 ---
 Rails 3 has good TimeZone support built in, but you have to use the right Date and Time classes to get full support.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Building Blocks of Ruby
-categories: blog
+categories: blog ruby python link
 ---
 While the Python version may not be quite as pretty, nothing about them screams “Ruby has much stronger capabilities here”. Instead, by using examples like Sinatra, Rubyists trade in an argument about great semantic power for one about superficial beauty.
 

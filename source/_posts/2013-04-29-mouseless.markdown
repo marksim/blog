@@ -3,7 +3,7 @@ layout: post
 title: "Mouseless"
 date: 2013-04-29 09:41
 comments: true
-categories: blog, life-hacks
+categories: blog life-hacks op-ed
 ---
 
 I always find it interesting to place artificial constraints on myself.  I don't think it's the constraint itself that is good as much as what it shows me about myself or what I do.  I read an article on [Rands in Repose](http://www.randsinrepose.com/archives/2008/04/21/saving_seconds.html) a few years ago that talked about giving up your mouse for Photoshop.  The idea isn't to rid yourself of the mouse entirely.  The idea is to make you aware of when you depend on the mouse.

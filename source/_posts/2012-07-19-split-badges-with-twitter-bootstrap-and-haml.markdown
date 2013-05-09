@@ -3,7 +3,7 @@ layout: post
 title: "Split Badges with Twitter Bootstrap and HAML"
 date: 2012-07-19 08:21
 comments: true
-categories: css, blog, haml
+categories: css blog haml code
 ---
 
 I recently needed to display a few contextual numbers near each other in a web app.  I've taken to liking the twitter bootstrap 'badges' for little informational numbers, especially with the color coding that <code>badge-important</code>, <code>badge-info</code>, and <code>badge-success</code> provide.  Easy ways to quickly communicate not only the number, but a hint at what it means.

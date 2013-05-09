@@ -2,7 +2,7 @@
 layout: post
 title: Feedback Loops and Estimation -or- What Rubik's Cubes Taught Me About Making
   Software
-categories: blog
+categories: blog op-ed
 ---
 Estimation is hard.  It may not be listed as one of the top <a href="http://laughingmeme.org/2005/12/23/there-are-only-two-hard-things-in-computer-science-cache-invalidation-and-naming-things/">two problems in computer science</a>, but it's at least a close third. Over the years I've gotten to try all sorts of methodologies for estimating.  Waterfall, Agile, Points, Stories, Requirements, Features, Epics, Pomodoros, Billable hours... you can go on forever with the Jargon of Management, trying to get information from a developer about how much longer The Client has to wait until The Feature is finished.
 ## Rubik's Cubes

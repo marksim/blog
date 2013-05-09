@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simplicity
-categories: blog
+categories: blog op-ed 
 ---
 I've read quite a bit lately about simplifying our lives--mostly from a personal perspective, i.e. having less stuff, doing fewer things, focusing on the right things.  It made me wonder how that translates to the professional level.
 

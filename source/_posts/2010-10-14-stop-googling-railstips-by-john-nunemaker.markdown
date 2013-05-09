@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stop Googling // RailsTips by John Nunemaker
-categories: blog
+categories: blog link
 ---
 Yesterday, one of my inter-web buddies IM’d me and asked if I had used Typhoeus before. I said yes, so he asked me if it was possible to follow redirects using it. He said he google’d it and nothing turned up.
 

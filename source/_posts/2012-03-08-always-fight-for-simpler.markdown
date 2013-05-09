@@ -3,7 +3,7 @@ layout: post
 title: "Always Fight for Simpler"
 date: 2012-03-08 11:05
 comments: true
-categories: blog
+categories: blog op-ed
 ---
 
 If there is one thing I have said over and over again in one form or another, but never seem to learn completely, it's "Always Fight for Simpler."

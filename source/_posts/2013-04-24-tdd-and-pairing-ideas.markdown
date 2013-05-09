@@ -3,7 +3,7 @@ layout: post
 title: "TDD and Pairing Ideas"
 date: 2013-04-24 10:10
 comments: true
-categories: 
+categories: blog tdd pairing
 ---
 
 When pairing, especially remotely with someone you don't work professionally with, it is sometimes helpful to have some ideas about how to go about getting the session going or what to do.  This is just a set of ideas that might get the ball rolling.

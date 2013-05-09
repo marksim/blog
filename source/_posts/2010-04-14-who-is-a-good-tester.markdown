@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Who Is A Good Tester?
-categories: blog
+categories: blog link
 ---
 A good software tester…
 <ul>

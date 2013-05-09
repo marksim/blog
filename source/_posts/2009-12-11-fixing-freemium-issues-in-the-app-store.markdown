@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fixing "Freemium" issues in the App Store
-categories: blog
+categories: blog op-ed
 ---
 Recently, Apple allowed Apps that are free to add in-app charges in order to allow users to "try before they buy."
 

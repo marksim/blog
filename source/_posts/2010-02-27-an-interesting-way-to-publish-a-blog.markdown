@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Interesting Way to Publish a Blog
-categories: blog
+categories: blog link git
 ---
 Peepcode has a blog and it is managed in a very efficient and unique way.  Everything is checked into git and pushed, no database involved--it's kindof incredible.   Check out the stack here:
 

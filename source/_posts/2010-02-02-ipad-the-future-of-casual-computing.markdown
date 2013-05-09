@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iPad - The Future of Casual Computing
-categories: blog
+categories: blog, op-ed
 ---
 I read a great article last week about the complexity and power of computers vs. what most non-Gen-X-ers want and it really got me thinking about the iPad.
 

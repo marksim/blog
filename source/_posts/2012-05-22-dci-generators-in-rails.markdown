@@ -3,7 +3,7 @@ layout: post
 title: "DCI Generators in Rails"
 date: 2012-05-22 12:10
 comments: true
-categories: dci, rails, blog
+categories: dci rails blog code ruby
 ---
 
 Recently, in my new project, I decided to take the [DCI](http://en.wikipedia.org/wiki/Data,_context_and_interaction) approach that [Mike Pack outlined](http://mikepackdev.com/blog_posts/24-the-right-way-to-code-dci-in-ruby), which has been really cool.  I've been able to keep my tests fast, and have very distinct buckets to put data (models), specific roles of that data (rather than cluttering up the models), and an easy way to take a use case and map it out programatically (contexts).  

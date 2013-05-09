@@ -6,7 +6,7 @@ excerpt: ! 'Over the course of human history, we''ve generally done things as be
   good at repetitive tasks, though our hearts long for something unique and challenging.   Only
   in the past 200 years have we begun to truly automate much of our lives.   With
   the dawn of the industrial age, we''ve seen automation begin to change our lives. '
-categories: blog
+categories: blog meta
 ---
 Over the course of human history, we've generally done things as best as we can, working the same tasks over and over again.   Our brains have gotten good at repetitive tasks, though our hearts long for something unique and challenging.   Only in the past 200 years have we begun to truly automate much of our lives.   With the dawn of the industrial age, we've seen automation begin to change our lives.
 

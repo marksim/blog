@@ -3,7 +3,7 @@ layout: post
 title: "Pull Requests on Private Teams"
 date: 2012-04-24 16:17
 comments: true
-categories: blog, meta, git
+categories: blog meta git op-ed
 ---
 
 

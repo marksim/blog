@@ -3,7 +3,7 @@ layout: post
 title: "ImageMagick, JPEGs, and Orientation, Oh My"
 date: 2012-06-13 15:15
 comments: true
-categories: blog, ruby
+categories: blog ruby rails code
 ---
 
 I've been working on a new project and decided to use CarrierWave to handle image uploads (and minor automatic manipulation).  Everything looked great, but then my new boss, who has a penchant for finding the one or two things wrong with your latest well-tested feature uploaded a JPEG that looked fine in Preview, but automatically rotated on upload.

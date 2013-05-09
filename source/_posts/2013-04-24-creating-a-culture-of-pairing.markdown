@@ -3,7 +3,7 @@ layout: post
 title: "Pairing as a Life Habit"
 date: 2013-04-24 09:33
 comments: true
-categories: 
+categories: blog pairing life-hacks op-ed
 ---
 
 I'm interested in creating a culture of pairing... not just in my workplace, but in my life.  I want to be able to pair with people in order to improve on the skills I alread have.  This is seen clearly in the relatively new [#pairwithme](http://www.pairprogramwith.me/) 'micro-movement' that is happening on [twitter](https://twitter.com/search?q=%23pairwithme&src=typd).  It shows that people want to learn from each other and improve their craft.

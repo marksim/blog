@@ -3,7 +3,7 @@ layout: post
 title: "Complexity and Elusive Perfection"
 date: 2012-02-29 14:15
 comments: true
-categories: musings
+categories: blog op-ed
 ---
 
 About three or four times a year, I find myself wishing my application wasn't so complicated.  I wish I was some stud developer who always made the right architectural decisions and didn't back myself into a corner.  I read about OO ideas regarding change management and coding for change even when you don't know what that change is and mostly, I find myself baffled.

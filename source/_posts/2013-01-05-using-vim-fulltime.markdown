@@ -3,7 +3,7 @@ layout: post
 title: "Using VIM Fulltime"
 date: 2013-01-05 09:27
 comments: true
-categories: 
+categories: blog vim
 ---
 
 I've used various IDEs for the last 10 years of development.  Started with [Eclipse](http://eclipse.org) while developing in Java.  Switched to [TextMate](http://macromates.com) when I moved to a Mac and started developing in Ruby.  Eventually, TextMate's development became stale and things other people were able to do with their editors started to look good.  I began searching, and even bought a license for [Sublime Text 2](http://sublimetext.com).  It had a lot of what I was looking for, but what I wanted was an editor that let me never leave my keyboard unless I wanted to and had good integration points.  I'd love a good fullscreen mode since I'm a bit of a FullScreen addict on Mac.  

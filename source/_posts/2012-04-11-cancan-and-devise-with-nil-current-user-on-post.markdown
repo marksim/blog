@@ -3,7 +3,7 @@ layout: post
 title: "CanCan and Devise with nil current_user on POST"
 date: 2012-04-11 13:07
 comments: true
-categories: blog, rails
+categories: blog rails code
 ---
 
 I had a Rails 2.3.X app that I migrated to Rails 3.  When I did, I upgraded CanCan and Devise.  Suddenly, my delete links weren't working.  I remembered that unobtrusive JS was the default so I hopped into the <code>application.html.erb</code> template and added the relevant javascript tags.

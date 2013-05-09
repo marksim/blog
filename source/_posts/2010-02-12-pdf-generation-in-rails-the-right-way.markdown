@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PDF Generation in Rails... The Right Way
-categories: blog
+categories: blog rails ruby code pdf
 ---
 As long as we're talking about efficiency here, one of the ways to be more efficient is to use the right tool for the job.  I've done PDF generation on 3 different projects but the PDF generation I did yesterday was by far the easiest.   What I thought would take me 2 days ended up taking about 3 hours (with research, etc).
 

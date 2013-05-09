@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Ideal GTD App
-categories: blog
+categories: blog gtd
 ---
 I have been a long time user of <a title="Things - GTD Task Management" href="http://culturedcode.com/things">Things</a> by <a title="Cultured Code" href="http://culturedcode.com" target="_blank">Cultured Code</a>, but they have been very slow implementing a couple of features that would really enhance the way I use GTD, namely time based reminders, location based reminders, and cloud-based syncing.
 

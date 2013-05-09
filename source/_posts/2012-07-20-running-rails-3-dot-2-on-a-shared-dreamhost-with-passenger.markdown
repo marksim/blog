@@ -3,7 +3,7 @@ layout: post
 title: "Running Rails 3.2 on a shared Dreamhost with Passenger"
 date: 2012-07-20 12:59
 comments: true
-categories: hosting, rails, blog
+categories: hosting rails blog code deployment
 ---
 
 *Update:* While it's good to understand what you're doing, [this template file](https://gist.github.com/4658117) will get you so that after you get your app running, <code>cap deploy:setup</code> and <code>cap deploy:cold</code> works, assuming you have the host set up properly and have your app's main directory cleared of all files.  

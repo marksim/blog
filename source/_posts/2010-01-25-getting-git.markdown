@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Git
-categories: blog
+categories: blog code git
 ---
 I recently converted all of my professional projects over to <a href="http://github.com">github</a> and switched my dev workflow to use git.
 

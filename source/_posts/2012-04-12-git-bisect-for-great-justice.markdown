@@ -3,7 +3,7 @@ layout: post
 title: "Git Bisect For Great Justice"
 date: 2012-04-12 11:29
 comments: true
-categories: blog, git
+categories: blog git code shell
 ---
 
 About a week ago, we had an elusive error that appeared when we deployed our latest app to staging.  Suddenly, any submission resulted in a "Stack trace too deep" error that gave no meaningful way to determine where the issue was coming from.  We were stuck for a couple of days, but then I was reminded of <code>git bisect</code>.

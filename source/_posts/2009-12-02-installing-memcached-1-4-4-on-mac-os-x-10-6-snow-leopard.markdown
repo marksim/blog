@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installing memcached 1.4.4 on Mac OS X 10.6 Snow Leopard
-categories: blog
+categories: blog, shell, code
 ---
 <a href="https://wincent.com/wiki/Installing_memcached_1.4.1_on_Mac_OS_X_10.6_Snow_Leopard">Wincent.com has a great article on how to install memcached 1.4.1 on Mac OS X 10.6 Snow Leopard</a>.
 
