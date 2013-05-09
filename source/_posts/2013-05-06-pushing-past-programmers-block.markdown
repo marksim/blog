@@ -22,7 +22,7 @@ Get up early in the morning and pick the thing you dread and work on it for some
 
 ### 3. Structured Procrastination (a.k.a. Mark Forrester's [Final Version](http://archive.constantcontact.com/fs004/1100358239599/archive/1109511856508.html)) 
 
-Contrary to the last item, start at the top of your list, put a . next to that item.  Then go down your list and put a . next to every item you'd rather be working on.  Start from the bottom and go back up your list.  Once you've gotten the first one done, lather, rinse and repeat.
+Contrary to the last item, start at the top of your list, put a "." next to that item.  Then go down your list and put a "." next to every item you'd rather be working on.  Start from the bottom and go back up your list, doing each item you marked.  Once you've gotten back to the top of the list and done the first item, lather, rinse and repeat.
 
 ### 4. Pairing
 
