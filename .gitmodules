@@ -1,3 +1,15 @@
 [submodule ".themes/bunching-bumbago"]
 	path = .themes/bunching-bumbago
 	url = git://github.com/octopress-themes/bunching-bumbago.git
+[submodule ".themes/oct2"]
+	path = .themes/oct2
+	url = git://github.com/bijumon/oct2.git
+[submodule ".themes/octopress-bootstrap"]
+	path = .themes/octopress-bootstrap
+	url = git://github.com/barmstrong/octopress-bootstrap.git
+[submodule ".themes/greyshade"]
+	path = .themes/greyshade
+	url = git://github.com/shashankmehta/greyshade.git
+[submodule ".themes/foxslide"]
+	path = .themes/foxslide
+	url = git://github.com/sevenadrian/foxslide.git
