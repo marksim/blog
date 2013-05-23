@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Pairing as Mentoring - First Impressions"
+title: "Pairing Post Mortem - @thecommongeek" 
 date: 2013-05-13 22:30
 comments: true
-categories: blog pairing meta op-ed
+categories: blog pairing meta post-mortem
 ---
 
 I had a great pairing session with [@thecommongeek](http://twitter.com/thecommongeek) tonight.  It was my first live-remote pair programming and I wanted to to a little "post mortem" on it to record my thoughts.

@@ -17,7 +17,7 @@ I've been programming for nearly 20 years and I've been earning my living at it 
 {% img right /images/main-setup.jpg 420 300 My Cloffice %}
 {% img right /images/desk-and-door.jpg 420 300 Pretty Small %}
 
-In May I quit that job to be part of a startup and starting working out of my home.  We (intentionally) have a small home in the suburbs and didn't have an entire room to dedicate to an office, so I am working out of my closet.
+In May 2012 I quit that job to be part of a startup and starting working out of my home.  We (intentionally) have a small home in the suburbs and didn't have an entire room to dedicate to an office, so I am working out of my closet.
 
 This is my basic Cloffice setup.  Standing desk, my laptop (elevated), a keyboard, trackpad and microphone.
 
