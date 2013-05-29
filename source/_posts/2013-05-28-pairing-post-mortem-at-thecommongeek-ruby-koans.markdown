@@ -52,4 +52,4 @@ And so I think he got to exactly where he needed to.  The koans are a great exer
 
 I really enjoyed this session since I felt like I learned a bit more how to teach in a pairing session.  Learning to teach is a huge gift in and of itself!  It goes to show you that you can truely learn from pairing with just about anyone, no matter what your respective experience levels are.
 
-On to the next pairing session!
+On to the next pairing session...
