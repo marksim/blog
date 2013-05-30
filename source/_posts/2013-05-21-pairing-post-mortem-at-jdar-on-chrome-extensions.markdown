@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pairing Post-Mortem - @jdar on Chrome Extensions"
+title: "Pairing Post Mortem - @jdar - Chrome Extensions"
 date: 2013-05-21 22:01
 comments: true
 categories: blog pairing post-mortem javascript chrome

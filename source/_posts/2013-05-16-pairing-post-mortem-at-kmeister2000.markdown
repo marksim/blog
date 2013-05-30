@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Pairing Post Mortem - @kmeister2000"
+title: "Pairing Post Mortem - @kmeister2000 - TDD and Domain Knowledge"
 date: 2013-05-16 10:07
 comments: true
-categories: blog pairing post-mortem meta
+categories: blog pairing post-mortem tdd 
 ---
 
 Last night I did a [#pairwithme](http://pairprogramwith.me) session with Karl Meisterheim.  He's an experienced developer who currently work part time and was looking to improve his skills.  Besides having a good deal in common and really enjoying our conversation, I also learned a bit more about remote pairing and came away with a couple of observations.

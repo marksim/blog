@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pairing Post Mortem - @thecommongeek" 
+title: "Pairing Post Mortem - @thecommongeek - Learning and Mentoring" 
 date: 2013-05-13 22:30
 comments: true
 categories: blog pairing meta post-mortem
