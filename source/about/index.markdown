@@ -9,7 +9,7 @@ footer: true
 
 ## 'Expert' Programmer
 
-I've been programming for nearly 20 years and I've been earning my living at it for most of the last 12.  For the first several years I was a Java programmer, but about 5 years ago I stepped into a job that let me pick technologies.  I was intrested in Rails, so I went with it.  That began a love for Ruby and simplicity that I've tried to nurture ever since.
+I've been programming since 1994 and I've been earning my living at it since 1999.  For the first several years I was a Java programmer, but in 2007 I stepped into a job that let me pick technologies.  I was intrested in Rails, so I went with it.  That began a love for Ruby and simplicity that I've tried to nurture ever since.
 
 
 ## A New Adventure
