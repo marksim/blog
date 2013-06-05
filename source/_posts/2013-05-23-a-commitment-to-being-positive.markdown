@@ -6,7 +6,7 @@ comments: true
 categories: blog op-ed meta
 ---
 
-It's really easy to be bogged down with all the crap in life.  There is a good amount of it and I don't know anyone that doesn't struggle with keeping a good attitude at some time or another.  I've struggled at various points to stay positive both in my personal life and publicly.  I don't think it's wrong to have negative thoughts or to even voice struggles or frustrations, but there is a danger in openly venting.  It creates a culture that is great at complaining and bad at doing anything about it.  It creates an entire set of people bogged down in the crap of their lives, and because of the loud voices they see all around them, it seems like there is no escape from it.  There is so little good that comes from complaining publicly.
+It's really easy to be bogged down with all the crap in life.  There is a good amount of it and I don't know anyone that doesn't struggle with keeping a good attitude at some time or another.  I've struggled at various points to stay positive both in my personal life and publicly.  I don't think it's wrong to have negative thoughts or to even voice struggles or frustrations, but there is a danger in openly venting.  It creates a culture that is great at complaining and bad at doing anything about it.  It creates an entire set of people bogged down in the crap of their lives, and because of the loud voices they hear all around them, it seems like there is no escape from it.  There is so little good that comes from complaining publicly.
 
 So I'm here to make a *public* commitment to *do* something about it:  **I am committing to stay positive.**
 
