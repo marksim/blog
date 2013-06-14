@@ -6,6 +6,8 @@ comments: true
 categories: pairing code shell tmux blog
 ---
 
+**Update 2013-06-14:** *[Improved the script](https://gist.github.com/marksim/5785406), removing the github-auth dependency, some of the OS X dependencies, and added firewall punch-through (user specific) and ssh-command with external IP auto-copy to clipboard*
+
 I wanted a quick and easy way to set up a new TMUX session with a brand new pair, so I came up with this:
 
 ``` sh ~/bin/pair-session

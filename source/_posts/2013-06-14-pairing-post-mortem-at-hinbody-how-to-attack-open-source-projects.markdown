@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pairing Post Mortem - @hinbody - How to Attack Open Source Projects"
+title: "Pairing Post Mortem - @hinbody - Attacking Open Source is Hard"
 date: 2013-06-14 10:47
 comments: true
 categories: blog pairing post-mortem oss
@@ -28,6 +28,7 @@ We started off by looking at Spree's issues and trying to select one that looked
 * Lack of familiarity with the product probably multiplied the difficulty.
 
 After we finally found what looked like a very simple documation change, we dug in a bit.
+
 * We wanted to see code work that indicated what the documentation *should* be, so we tried to get the tests to work.
 * Most of our pairing time was spent trying to get the environment set up so that we could run specs.  
 * The issue and comments did not seem to match what we saw in the code.
