@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Managing Your Today List
+title: Using Tags
 categories: things gtd
 ---
 

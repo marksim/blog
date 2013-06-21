@@ -28,4 +28,6 @@ We spent about 45 minutes [implementing TicTacToe](https://gist.github.com/marks
 
 Great session!  I look forwarding to my next with [@willpragnell](http://twitter.com/willpragnell)
 
+**UPDATE** - *afterwards, I really liked where this was going.  I spent a little time and tried to finish out the implementation.  [It's my favorite implementation of TicTacToe because it's so simple.](https://gist.github.com/marksim/5786740)  Thinking of the UI, but coding the tests just under it made it easy to drive and then super simple to throw on a CLI that worked perfectly.*
+
 On to the next pairing session...
