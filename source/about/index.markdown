@@ -27,14 +27,12 @@ Honestly, I've found that I don't need much space.  Standing helps keep me awake
 
 If you're like me, you've probably read many articles about how sitting all day is bad for you.  I had a coworker at my last job use a standing desk and I thought I'd try it.  The first 3 days I was very tired on my feet, but after that I got used to it.
 
-{% img left /images/standing-desk-and-cooling.jpg 420 300 Standing Desk setup %}
+{% img left /images/new-standing-desk.jpg 300 420 Standing Desk setup %}
 
-I didn't want to invest something that wasn't going to work out, so I've jerry-rigged this desk by putting it on top of 2 boxes full of all the stuff I've taken to and from every job I've ever had--and rarely used.  I also put a small fan underneath to help keep me cool since the closet has little ventilation.
+I started off by just stacking a small IKEA desk on top of boxes.  After a year of standing, I became convinced that I could handle a standing desk and invested in a great [Safco Adjustable Height Workstation](http://www.amazon.com/Safco-1929CY-Adjustable-Stand-Up-Workstation/dp/B001MS70Z2) which is absolutely great.  It provides lots of shelves to place things and actually takes up less room than my boxes-and-ikea-desk solution.  It is on wheels so I can easily move it out of the closet or change the angle if I'm recording video and don't want the storage behind me.  
 
-Yes, that is a Lightning McQueen doormat.  It feels good on my feet.  Shut up.
-
-The best part of the setup is that it's easy to remove the laptop, but it feels like a real workstation.
+The best part of the setup is that it's easy to remove the laptop, but it feels like a real workstation, so I have a dedicated place to work--but I'm not restricted to only working there.
 
 ## What I love
 
-I'll say this, I love developing.  I love finding new ways to look at problems and seeing the look on a users face when they are excited at how cool/easy/awesome something is.  There's a little piece of me that loves the control of it all, but I try to suppress that.  The point is helping people have better lives.
+I'll say this, I love developing.  I love finding new ways to look at problems and seeing the look on a users face when they are excited at how cool/easy/awesome something is.  There's a little piece of me that loves the control of it all, but I try to suppress that.  The point is helping people have better lives.  Thats a big reason why I love [pair programming](/pairing) and helping others learn to pair.  If you're interested in learning to pair, I would *love* to help you out.  Hit me up on [twitter](http://twitter.com/marksim) or check out the link in the sidebar.
