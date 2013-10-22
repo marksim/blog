@@ -6,4 +6,5 @@ comments: true
 categories: blog meta
 ---
 
-I am trying out Octopress as a new blogging engine.  I have seen several people use it and I appreciate the lack of PHP :)
+I am trying out Octopress as a new blogging engine.  I have seen several people
+use it and I appreciate the lack of PHP :)
