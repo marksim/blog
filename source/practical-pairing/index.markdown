@@ -11,8 +11,9 @@ As developers, we often find ourselves alone.  Keyboards lend themselves to sing
 
 **But you may not be at a place where you can pair easily or readily**.  What if you're a remote worker?  What if your company doesn't see the value and discourages such 'wastes of time'?  What if you aren't even a professional developer yet... you're just trying to learn?  Where do you start?
 
-It can intimidating, frustrating and difficult to remote pair.  This talk addresses the following issues to help everyone experience the **awesomeness of pairing**, no matter what situation they are in.  
+It can be intimidating, frustrating and difficult to remote pair.  This talk addresses the following issues to help everyone experience the **awesomeness of pairing**, no matter what situation they are in.  
 
+--- 
 Issues Addressed
 
 * Technical
@@ -30,5 +31,13 @@ Issues Addressed
     - Feeling inadequate
     - Feeling superior
     - Feeling frustrated
+    - Establishing Empathy
+* Benefits
+    - Learning a new technology
+    - Leveling up 
+    - Learning to teach 
+    - Finding like-minded developers
+    - Experiencing different cultures (programming and otherwise)
+    - Finding future coworkers
 
 I hope after this talk, everyone walks away prepared and exited to go learn by pairing.
