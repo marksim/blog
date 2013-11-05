@@ -26,17 +26,8 @@ You will only have to perform these steps once per machine that you want to pair
 
     {% img /images/remote_login_setup.png 500 %}
 
-3. Finally, open up a terminal and type the following
-```
-    $ sudo su pair
-    $ cd 
-    $ mkdir .ssh
-    $ echo "tmux -S /tmp/pairing attach -t pairing" >> ~/.bash_profile
-    $ echo "exit" >> ~/.bash_profile
-    $ exit
-```
-4. Download this [pair-session](https://gist.github.com/marksim/5785406/raw/c986c8882661a47d422d899d89c3fe44c7979f96/pair-session.sh) script.
-5. Find the script and copy it into your path.  I put mine in `~/bin` and add that to my path in my `~/.zshrc` file.  Make sure you `chmod 755 ~/bin/pair-session.sh`
+3. Download this [pair-session](https://gist.github.com/marksim/5785406/raw/d83019c2d24d2193503eeeebb927a5afa74c8372/pair-session.sh) script.
+4. Find the script and copy it into your path.  I put mine in `~/bin` and add that to my path in my `~/.zshrc` file.  Make sure you `chmod 755 ~/bin/pair-session.sh`
 
 ### Research
 
@@ -53,7 +44,7 @@ You *probably* want to turn this on and off between each session since it's less
 
 You are now completely setup and ready to go.  In order to start a session, ask your pair what their github user name is and type:
 
-    $ pair-session.sh <username>
+    $ pair-session.sh <username> [<username [<username [...]]]
 
 The ssh command needed for your pair is already copied onto your clipboard.  Just hit `CMD-V` in the chat window to let your pair know how to connect.  
 
