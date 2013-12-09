@@ -26,7 +26,7 @@ You will only have to perform these steps once per machine that you want to pair
 
     {% img /images/remote_login_setup.png 500 %}
 
-3. Download this [pair-session](https://gist.github.com/marksim/5785406/raw/d83019c2d24d2193503eeeebb927a5afa74c8372/pair-session.sh) script.
+3. Download this [pair-session](https://gist.github.com/marksim/5785406/raw/8234df06fbc4c9952b97eacc647e09eefc996abf/pair-session.sh) script.
 4. Find the script and copy it into your path.  I put mine in `~/bin` and add that to my path in my `~/.zshrc` file.  Make sure you `chmod 755 ~/bin/pair-session.sh`
 
 ### Research
