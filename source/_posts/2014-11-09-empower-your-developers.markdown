@@ -17,7 +17,8 @@ Of course, this means that you simply *must* continue to empower your devs to ac
 * Let them deploy when they believe a feature is ready.  
 * Give them permission to design and spec features.
 * Permit them to talk to the stakeholders 
-  {% img http://www.okmoviequotes.com/wp-content/uploads/2014/05/10-Office-Space-quotes.gif %}
+
+{% img http://www.okmoviequotes.com/wp-content/uploads/2014/05/10-Office-Space-quotes.gif %}
 
 Most of what you are doing is giving them freedom to fail.  When you do that, you're creating an environment where they don't rely on safety nets to catch them, but rather, focus on doing a great job top to bottom themselves.  
 
