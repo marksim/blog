@@ -11,25 +11,34 @@ Now, you could easily do this for a small subset and hand-code every item, but I
 
 Let's start off with the basic survey and capabilities models and relationships:
 
-``` ruby
-# ./script/generate model Survey name:string
-# app/models/survey.rb
+``` bash
+./script/generate model Survey name:string
+```
+
+``` ruby app/models/survey.rb
 class Survey < ActiveRecord::Base
   has_many :survey_capabilities
   has_many :capabilities, :through => :survey_capabilities
 end
+```
 
-# ./script/generate model Capability name:string parent_id:integer question:string
-# app/models/capability.rb
+``` bash
+./script/generate model Capability name:string parent_id:integer question:string
+```
+``` ruby app/models/capability.rb
 class Capability < ActiveRecord::Base
   has_many :survey_capabilities
   
   belongs_to :parent, :class_name => 'Capability'
   has_many :capabilities, :foreign_key => 'parent_id'
 end 
+```
 
-# ./script/generate model SurveyCapability survey:references capability:references answer:string
-# app/models/survey_capability.rb
+``` bash
+./script/generate model SurveyCapability survey:references capability:references answer:string
+```
+
+``` ruby app/models/survey_capability.rb
 class SurveyCapability < ActiveRecord::Base
   belongs_to :survey
   belongs_to :capability
@@ -39,20 +48,19 @@ end
 Your first attempt at making a survey map to many capabilities will be something like this (formtastic):
 ``` ruby
 <%= f.input :capabilities, :as => :check_boxes %>
-``` ruby
+``` 
 
 But while that works on a basic level, it doesn't work for capabilities that have a hierarchy and it doesn't allow the user to specify additional data (i.e. answer a question about the capability).
 
 So we're going to need to accept nested resources.   So we add this line to survey.rb:
 ``` ruby
 accepts_nested_attributes_for :site_capabilities, :reject_if => lambda { |a| a[:capability_id].blank? || a[:capability_id].to_i == 0}, :allow_destroy => true
-``` ruby
+```
 
 Now we need to recursively display hierarchal capabilities (If you show videos on your site, you might allow the user to invoke it, or require the user to invoke it, but if you don't show videos, we don't care about your invocation restrictions):
 
 First, let's make a quick way to show/hide enable/disable elements within a div:
-``` javascript
-# public/javascripts/application.js
+``` javascript public/javascripts/application.js
 function toggle_fields(element_id, value) {
   if (!value) {
     Effect.SlideUp(element_id, { duration: 0.1 })
@@ -67,8 +75,7 @@ function toggle_fields(element_id, value) {
 ```
 
 Now let's create a helper that will set up the capabilities checkboxes and nested inputs:
-``` ruby
-# app/helpers/survey_helper.rb
+``` ruby app/helpers/survey_helper.rb
 def select_capabilities(f, collection)
     html = ""
     collection.each do |capability|
@@ -126,15 +133,14 @@ And now we can add the :onclick option to the original checkbox so that appropri
 ```
 
 After we've got all that going on, we simply have to place it in the _form view:
-``` ruby
-# app/views/surveys/_form.rb
+``` ruby app/views/surveys/_form.erb
 <% semantic_form_for @survey do |f| %>
   <%= select_capabilities f, Capability.find(:all, :conditions => {:parent_id => nil}) %>
 <% end %>
 ```
 
 Instead of doing Capability.find..., let's add a named scope to the Capability class:
-``` ruby
+``` ruby app/models/capability.rb
 class Capability
   named_scope :top_level, :conditions => {:parent_id => nil}
   ...

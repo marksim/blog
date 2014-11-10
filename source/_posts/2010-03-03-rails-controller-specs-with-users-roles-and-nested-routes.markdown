@@ -8,8 +8,7 @@ I've long put off testing my controllers because of user authentication and nest
 But today, a fully working test!  
 
 As background, Advertisers have many trackers and the routes look like this:
-``` ruby
-# config/routes.rb
+``` ruby config/routes.rb
 ActionController::Routing::Routes.draw do |map|
   map.resources :advertisers do |advertisers|
     advertisers.resources :trackers
@@ -18,8 +17,7 @@ end
 ```
 
 To set everything up in the specs, I included all the files in the spec/support directory and used <a href="http://mocha.rubyforge.org/">Mocha</a> as my mock framework
-``` ruby
-# spec/spec_helper.rb
+``` ruby spec/spec_helper.rb
 Dir[File.expand_path(File.join(File.dirname(__FILE__),'support','**','*.rb'))].each {|f| require f}
 
 Spec::Runner.configure do |config|
@@ -29,8 +27,7 @@ end
 
 Then I set up my factories (<a href="http://railscasts.com/episodes/158-factories-not-fixtures">rather than fixtures</a>) using <a href="http://github.com/thoughtbot/factory_girl">Factory Girl</a>
 
-``` ruby
-# spec/factories.rb
+``` ruby spec/factories.rb
 Factory.define :user do |user|
   user.sequence(:login) { |n| "username#{n}" }
   user.password 'password'
@@ -50,8 +47,7 @@ end
 ```
 
 Now we get down to brass tacks.  In order to make my tests DRY (appropriately) and allow for all my controllers to test if someone is logged in and has access, I set up this shared context
-``` ruby
-# spec/support/user_authentication.rb
+``` ruby spec/support/user_authentication.rb
 describe "an admin is logged in", :shared => true do
   before(:each) do
     controller.stubs( :login_required => true)
@@ -61,8 +57,7 @@ end
 ```
 
 From there, all we need to do is put it all together, setting up trackers parent @advertiser and the @tracker we'll be using and stubbing the ActiveRecord find so that it always returns @advertiser
-``` ruby
-# spec/controllers/trackers_controller.rb
+``` ruby spec/controllers/trackers_controller.rb
 describe TrackersController do
   it_should_behave_like "an admin is logged in"
   integrate_views
@@ -75,8 +70,7 @@ describe TrackersController do
 ```
   
 Now we simply specify the part of the path that is needed to find the nested route by using :advertiser_id => @advertiser
-``` ruby
-# spec/controllers/trackers_controller.rb
+``` ruby spec/controllers/trackers_controller.rb
   it "index action should render index template" do
     get :index, :advertiser_id => @advertiser
     response.should render_template(:index)

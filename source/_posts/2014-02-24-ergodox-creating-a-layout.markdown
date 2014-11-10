@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""Ergodox - Creating a layout""
+title: "Ergodox - Creating a layout"
 date: 2014-02-24 14:20
 comments: true
 categories: blog ergonomics 
