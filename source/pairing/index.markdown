@@ -6,6 +6,7 @@ comments: true
 sharing: true
 footer: true
 ---
+**UPDATE (2014-11-10): [tmate.io](http://tmate.io) gets you nearly everything this script does and more, with no port forwarding from your router (hello, coffeeshops!) and even offers a 'read only' connection.  I _HIGHLY_ recommend it**
 
 There are basically 2 options for hosting a pair session, one is Screen Sharing, which is straightforward and easy to do.  Check out [ScreenHero](http://screenhero.com) or [TeamViewer](http://teamviewer.com) if you're interested in that.  At this point in time, ScreenHero is free, but almost all of these services are expected to eventually charge.  Your experience may be less than optimal due to bandwidth/networking issues.  Some people have no problems, some struggle.
 
