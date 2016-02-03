@@ -13,3 +13,6 @@
 [submodule ".themes/foxslide"]
 	path = .themes/foxslide
 	url = git://github.com/sevenadrian/foxslide.git
+[submodule ".themes/classic-martinb"]
+	path = .themes/classic-martinb
+	url = git://github.com/martinbjeldbak/classic-martinb.git
